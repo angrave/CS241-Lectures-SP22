@@ -1,5 +1,6 @@
 
 #include <stdio.h>
 int main() {
-  printf("Hello everyone!");
+puts("Hello CS241!");
 }
+
