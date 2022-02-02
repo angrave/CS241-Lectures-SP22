@@ -10,6 +10,7 @@ int main(int argc, char**argv) {
     if( child ==0) { //I am the child
       sleep(5);
     }
+    
     int r = rand() & 0xf;
     printf("%d: My random number is %d\n", getpid(), r);
     int r2 = rand() & 0xf;

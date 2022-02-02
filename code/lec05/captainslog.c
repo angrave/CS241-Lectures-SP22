@@ -11,7 +11,7 @@ int main() {
    puts("Captain's log"); // Clibrary detects output written to a file
 
    chdir("/bin");
-   fflush(stdout);
+   //fflush(stdout);
    
    execl("/bin/ls", "/bin/ls",".",(char*)NULL); // "ls ."
    perror("exec failed");
